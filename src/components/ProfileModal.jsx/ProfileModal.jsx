@@ -16,7 +16,7 @@ function ProfileModal({modalOpened, setModalOpened}) {
         opened = {modalOpened}
         onClose= {()=>setModalOpened(false)}
     >
-        <form className='Inform'>
+        <form className='infoForm'>
             <h3>Your info</h3>
 
             <div>
@@ -49,7 +49,7 @@ function ProfileModal({modalOpened, setModalOpened}) {
                 type="text" 
                 className="infoInput" 
                 name="LivesIn" 
-                placeholder='LIves in'
+                placeholder='Lives in'
                 />
 
                 <input 
