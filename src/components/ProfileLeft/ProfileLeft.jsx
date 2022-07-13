@@ -5,7 +5,7 @@ import LogoSearch from "../LogoSearch/LogoSearch";
 import "../../pages/home/Profile/Profile.css"
 const ProfileLeft = () => {
     return (
-        <div ClassName="ProfileSide">
+        <div className="ProfileSide">
             <LogoSearch/>
             <InfoCard/>
             <FollowersCard/>

@@ -19,7 +19,7 @@
     gap: 2rem;
 }
 
-a.a-left > img {
+.a-left > img {
     width: 4rem;
     height: 4rem;
 }
@@ -29,7 +29,7 @@ a.a-left > img {
     background-color: red;
 
     /* Create the gradient. */
-    background-image: var(--buttongBg);
+    background-image: var(--buttonBg);
 
     /* Set the background size and repeat properties. */
     background-size: 100%;

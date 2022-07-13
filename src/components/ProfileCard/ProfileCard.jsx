@@ -9,12 +9,12 @@ const ProfileCard = () => {
     const ProfilePage = true;
     return (
 
-        <div class="ProfileCard">
-            <div class="ProfileImages">
+        <div className="ProfileCard">
+            <div className="ProfileImages">
                 <img src={Cover} alt="" />
                 <img src={Profile} alt="" />
             </div>
-            <div class="ProfileName">
+            <div className="ProfileName">
                 <span>Zendaya MJ</span>
                 <span>Senior UI/UX designer</span>
             </div>

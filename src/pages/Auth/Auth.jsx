@@ -12,7 +12,6 @@ const Auth = () => {
                    <h6>Explore the ideas throughout the world</h6>
                </div>
            </div>
-
            <LogIn/>
        </div>
     );
@@ -21,14 +20,14 @@ const Auth = () => {
 function LogIn(){
     return(
         <div className="a-right">
-            <form className="inForm authform">
+            <form className="infoForm authForm">
                 <h3>Log In</h3>
 
                 <div>
                     <input 
                     type="text" 
                     placeholder="Username"
-                    className="InfoInput" 
+                    className="infoInput" 
                     name="username" 
                     />
                 </div>
@@ -36,8 +35,8 @@ function LogIn(){
                 <div>
                 <input 
                     type="password" 
-                    placeholder="InfoInput"
-                    className="Password" 
+                    placeholder="Password"
+                    className="infoInput" 
                     name="password" 
                     />
                 </div>
@@ -46,7 +45,7 @@ function LogIn(){
                     <span style={{ fontSize: "12px" }}>
                         Don't have an account Sign up
                     </span>
-                    <button className="button InfoButton">Login</button>
+                    <button className="button infoButton">Login</button>
                 </div>
             </form>
         </div>
@@ -56,16 +55,17 @@ function LogIn(){
 function SignUp(){
     return(
         <div className="a-right">
-            <form action="" className="infoForm">
+            <form action="" className="infoForm authForm">
                 <h3>Sign up</h3>
+
                 <div>
                     <input 
                     type="text" placeholder='First Name' 
-                    className='infoImput' name='firstname'
+                    className='infoInput' name='firstname'
                     />
                      <input 
                      type="text" placeholder='Last Name' 
-                    className='infoImput' name='lastname'
+                    className='infoInput' name='lastname'
                     />
                 </div>
 
