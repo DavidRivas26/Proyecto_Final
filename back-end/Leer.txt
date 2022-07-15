@@ -1,1 +1,0 @@
-Esta carpeta es exclusivamente para crear el back-end de nuestra aplicación
