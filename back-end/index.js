@@ -4,6 +4,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import AuthRoute from './Routes/AuthRoutes.js';
 
 /*this our first instance of our server*/
 const app = express();
@@ -41,6 +42,8 @@ mongoose
 
   /*Controllers are JS functions*/
 
+  //Usage of routes
 
+app.use('/Auth', AuthRoute);
 
 
