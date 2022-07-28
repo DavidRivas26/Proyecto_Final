@@ -4,6 +4,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import cors from 'cors';
 import AuthRoute from './Routes/AuthRoutes.js';
 import UserRoute from './Routes/UserRoute.js'
 import PostRoute from './Routes/PostRoute.js'
@@ -13,6 +14,7 @@ const app = express();
 /*to enable the middleware on our express server*/
 app.use(bodyParser.json({limit: '30mb', extended: true}));
 app.use(bodyParser.urlencoded({limit: '30mb', extended: true}))
+app.use(cors())
 
 /*Aqui establecemos la conexion a la base de datos*/
 /*esto es una promesa con lo cual podemos utilizar el .then*/
